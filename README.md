@@ -1,10 +1,14 @@
 # Window-length bias in EHR-derived MAP hypotension metrics
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24014471.svg)](https://doi.org/10.5281/zenodo.24014471)
+
 Analysis code companion for a methods manuscript on **window-length bias** in
 time-window summaries of mean arterial pressure (MAP) hypotension
 (Journal of Clinical Epidemiology submission materials are separate).
 
 **Public repository:** https://github.com/1e0N-Sxx/window-length-bias-ehr-hypotension
+
+**Zenodo archive:** https://doi.org/10.5281/zenodo.24014471
 
 ## What is included
 
@@ -22,7 +26,6 @@ time-window summaries of mean arterial pressure (MAP) hypotension
 - **No local EICU / hospital identifiable patient data**
 - No hospitalization IDs, raw MAP time series, DuckDB files, or patient-level pickles
 - No manuscript DOCX / submission pack (those stay with the journal materials)
-- No Zenodo DOI yet (archive after the public GitHub tag; placeholder in paper Declarations)
 
 ## MIMIC-IV access
 
@@ -88,6 +91,6 @@ MIT — see `LICENSE`.
 
 ## Citation
 
-Please cite the published article (or preprint) when available, and MIMIC-IV as above.
+Please cite the published article (or preprint) when available, the Zenodo archive above, and MIMIC-IV as above.
 This code deposit is offered to support methods review and reproducibility of
 **aggregate** results; it is not a substitute for credentialed database access.
