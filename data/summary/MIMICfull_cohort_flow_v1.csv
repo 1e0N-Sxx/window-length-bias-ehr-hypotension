@@ -1,0 +1,8 @@
+step,n
+stays_table_rows,94458
+adult_age_ge18,94458
+adult_first_ICU,65366
+first_ICU_los_ge72h,20696
+with_MAP_0_72h_prefer_invasive,20649
+complete_W1W2W3_burden_ok,20168
+complete_E1E2E3_burden_ok,19952

@@ -1,0 +1,13 @@
+design,window,n_primary,n_evaluable,n_missing,n_pos,pos_pct_among_evaluable,pos_pct_numerator_over_148,rule,mean_burden_evaluable,median_burden_evaluable,mean_hypo_frac_calendar_evaluable,median_burden_among_pos
+original_unequal,W1_0_6,148,148,0,40,27.0,27.0,missing_excluded_from_numerator_not_imputed_as_negative,0.07165431029358392,0.0,0.07062687687687688,0.18073593073593075
+original_unequal,W2_6_24,148,148,0,50,33.8,33.8,missing_excluded_from_numerator_not_imputed_as_negative,0.05511743372876997,0.0,0.05333458458458458,0.11178507276182538
+original_unequal,W3_24_72,148,148,0,69,46.6,46.6,missing_excluded_from_numerator_not_imputed_as_negative,0.04338823196124742,0.0,0.04276698573573573,0.0625
+equal6h_end_of_parent,E1_0_6,148,148,0,40,27.0,27.0,missing_excluded_from_numerator_not_imputed_as_negative,0.07165431029358392,0.0,0.07062687687687688,0.18073593073593075
+equal6h_end_of_parent,E2_18_24,148,148,0,25,16.9,16.9,missing_excluded_from_numerator_not_imputed_as_negative,0.04155478425907955,0.0,0.037668918918918916,0.18181818181818182
+equal6h_end_of_parent,E3_66_72,148,145,3,25,17.2,16.9,missing_excluded_from_numerator_not_imputed_as_negative,0.051714127686486915,0.0,0.047452107279693505,0.1840490797546011
+equal6h_start_of_parent,S1_0_6,148,148,0,40,27.0,27.0,missing_excluded_from_numerator_not_imputed_as_negative,0.07165431029358392,0.0,0.07062687687687688,0.18073593073593075
+equal6h_start_of_parent,S2_6_12,148,148,0,27,18.2,18.2,missing_excluded_from_numerator_not_imputed_as_negative,0.05804788376941586,0.0,0.053171921921921925,0.25294117647058834
+equal6h_start_of_parent,S3_24_30,148,148,0,22,14.9,14.9,missing_excluded_from_numerator_not_imputed_as_negative,0.03409591576473515,0.0,0.031006006006006004,0.18662564578858765
+equal6h_mid_parent,M1_0_6,148,148,0,40,27.0,27.0,missing_excluded_from_numerator_not_imputed_as_negative,0.07165431029358392,0.0,0.07062687687687688,0.18073593073593075
+equal6h_mid_parent,M2_12_18,148,147,1,28,19.0,18.9,missing_excluded_from_numerator_not_imputed_as_negative,0.06728260834896287,0.0,0.06173469387755102,0.24333193688032398
+equal6h_mid_parent,M3_45_51,148,146,2,22,15.1,14.9,missing_excluded_from_numerator_not_imputed_as_negative,0.04031155440333569,0.0,0.0375,0.19115259740259738

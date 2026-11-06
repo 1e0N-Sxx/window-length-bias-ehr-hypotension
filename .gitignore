@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# OS / editor scratch
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local identifiable extracts — never commit patient-level EHR data
+data/raw/
+data/private/
+*.duckdb
+*.pkl
+*.pickle
+*.csv.gz
+out_*/
+**/patient_*.csv
+**/hosp_id*
+map_long*.csv
+chartevents*
+icustays*.csv
+
+# Secrets / local absolute path configs
+secrets.*
+*.pem
+local_paths.ini
