@@ -1,0 +1,44 @@
+{
+  "primary_n": 145,
+  "n_excluded_incomplete_we": 3,
+  "W_pos_pct": [
+    27.6,
+    34.5,
+    47.6
+  ],
+  "E_pos_pct": [
+    27.6,
+    17.2,
+    17.2
+  ],
+  "death": {
+    "n": 11,
+    "N": 145,
+    "pct": 7.6
+  },
+  "early_pos_death": {
+    "deaths": 5,
+    "n": 40,
+    "pct": 12.5
+  },
+  "early_neg_death": {
+    "deaths": 6,
+    "n": 105,
+    "pct": 5.7
+  },
+  "fisher_p": 0.17633093751654005,
+  "L24_any_L1": 4.225,
+  "L24_any_L48": 47.586,
+  "L24_twa_range": [
+    0.035,
+    0.044
+  ],
+  "perm_means_W": [
+    24.8,
+    41.2,
+    56.7
+  ],
+  "study_period": "April 27, 2025, to October 20, 2026",
+  "qc_expected_match": true,
+  "material_change": false
+}

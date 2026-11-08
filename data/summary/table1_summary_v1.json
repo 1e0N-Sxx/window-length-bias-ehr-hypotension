@@ -1,0 +1,35 @@
+{
+  "n": 145,
+  "age_median": 70.0,
+  "age_q1": 52.0,
+  "age_q3": 80.0,
+  "age_mean": 64.18620689655172,
+  "age_sd": 19.950976795530224,
+  "age_min": 19.0,
+  "age_max": 99.0,
+  "male_n": 96,
+  "male_pct": 66.2,
+  "female_n": 49,
+  "female_pct": 33.8,
+  "occupancy_h_median": 158.98611111111111,
+  "occupancy_h_q1": 98.98611111111111,
+  "occupancy_h_q3": 219.21666666666667,
+  "W1_median_interval_min_median": 60.0,
+  "W1_median_interval_min_q1": 59.99999999999997,
+  "W1_median_interval_min_q3": 60.0,
+  "diagnosis_category": {
+    "other": 50,
+    "trauma": 38,
+    "infection_sepsis": 32,
+    "poisoning": 14,
+    "cardiovascular": 11
+  },
+  "diagnosis_category_pct": {
+    "other": 34.5,
+    "trauma": 26.2,
+    "infection_sepsis": 22.1,
+    "poisoning": 9.7,
+    "cardiovascular": 7.6
+  },
+  "study_period_unified": "April 27, 2025, to October 20, 2026"
+}

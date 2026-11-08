@@ -10,6 +10,12 @@ time-window summaries of mean arterial pressure (MAP) hypotension
 
 **Zenodo archive:** https://doi.org/10.5281/zenodo.24014471
 
+That version DOI is still Zenodo **v0.1.0** (published 2026-11-06; primary **n=148** snapshot). It does not match the tables in this tree. A new Zenodo version is needed after the git tag. The concept DOI `10.5281/zenodo.24014470` stays and will track the latest version. Details: `docs/zenodo_v0.1.0_n145_gap.md`.
+
+**Primary analysis set (v2.5 / n145):** complete-case **n=145** (W1–W3 and E1–E3 all computable).
+Unequal any-MAP<65 positivity **27.6 / 34.5 / 47.6%**; equal-end **27.6 / 17.2 / 17.2%**.
+Permutation means (W) **24.8 → 41.2 → 56.7%** (m=500, seed 20261105). Observed W3 47.6% below the null.
+
 ## What is included
 
 - Parameterized Python scripts for:
@@ -20,6 +26,8 @@ time-window summaries of mean arterial pressure (MAP) hypotension
   table numbers (positivity %, length curves, permutation null, MIMIC full summaries,
   cohort flow counts).
 - Extraction protocol note: `docs/MIMIC_IV_3.1_extraction.md`
+- n=145 QA note: `docs/CHANGELOG_QA_n145_v1.md` (old-versus-new audit; current rates are the n=145 column)
+- `scripts/make_figs_n145.py` redraws Figures 1–3 from these CSVs. Figure 2 keeps the observed-versus-permutation comparison in the caption only.
 
 ## What is NOT included
 
@@ -73,17 +81,21 @@ Shared metric definitions live in `scripts/window_metrics_core.py`
 (half-open windows, MAP&lt;65, 60 min TWA cap, positivity = burden &gt; 0;
 MIMIC prefer-invasive itemids 220052 &gt; 225312 &gt; 220181).
 
-## Summary tables ↔ manuscript
+## Summary tables ↔ manuscript (n=145 complete-case)
 
 | File | Role |
 |---|---|
-| `summary_WE_v1.csv` | Local unequal / equal-end window summaries (n=148) |
-| `local_common_WE_positivity_v1.csv` | Locked positivity denominators (27.0/33.8/46.6 vs 27.0/16.9/17.2) |
+| `summary_WE_v1.csv` | Local unequal / equal-end window summaries (**n=145**) |
+| `local_common_WE_positivity_v1.csv` | Locked positivity (**27.6/34.5/47.6** vs **27.6/17.2/17.2**) |
 | `length_curve_0h_v1.csv`, `length_curve_24h_v1.csv` | Figure 1 inputs |
-| `perm_null_v1.csv` | Figure 2 permutation null (m=500, seed 20261105) |
-| `paper2_12x6h_trajectory_v1.csv` | 12×6 h trajectory |
-| `MIMICfull_*.csv` | External full MIMIC aggregates (Table 4 / S6) |
+| `perm_null_v1.csv` | Figure 2 permutation null (m=500, seed 20261105; means 24.8/41.2/56.7) |
+| `paper2_12x6h_trajectory_v1.csv` | 12×6 h trajectory (same rows as `trajectory_12x6h_v1.csv`) |
+| `early_death_v1.csv` | In-hospital death 11/145 (7.6%); early+ 5/40 vs early− 6/105 |
+| `table1_summary_v1.json` | Table 1 aggregates (age, sex, diagnosis category, occupancy) |
+| `length_curve_perm_v1.csv` | Permuted any-positivity by length (24 h start) |
+| `MIMICfull_*.csv` | External full MIMIC aggregates (own N; unchanged) |
 | `MIMICdemo_windows_v1.csv` | Demo smoke-check only (not main external evidence) |
+| `key_numbers_v1.json` | Frozen n145 key-number card (no hospitalization IDs) |
 
 ## License
 
@@ -91,6 +103,6 @@ MIT — see `LICENSE`.
 
 ## Citation
 
-Please cite the published article (or preprint) when available, the Zenodo archive above, and MIMIC-IV as above.
+Please cite the published article (or preprint) when available, and MIMIC-IV as above. The badge is version DOI 10.5281/zenodo.24014471 (v0.1.0 only). Cite the new version DOI after that version is published.
 This code deposit is offered to support methods review and reproducibility of
 **aggregate** results; it is not a substitute for credentialed database access.

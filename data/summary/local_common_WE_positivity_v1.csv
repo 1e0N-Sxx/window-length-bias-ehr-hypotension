@@ -1,5 +1,4 @@
-set,n_denom_note,n,W1,W2,W3,E1,E2,E3
-W_among_evaluable_n148,each window evaluable=148,148.0,27.0,33.8,46.6,,,
-E_among_evaluable_per_window,"E1=148,E2=148,E3=145",,,,,27.0,16.9,17.2
-E_numerator_over_primary148,missing excluded from numerator,148.0,,,,27.0,16.9,16.9
-common_WE_complete,all W and E burden_ok,145.0,27.6,34.5,47.6,27.6,17.2,17.2
+set,n,W1_pct,W2_pct,W3_pct,E1_pct,E2_pct,E3_pct,notes
+primary_complete_case,145,27.6,34.5,47.6,27.6,17.2,17.2,W∪E six windows computable; primary analysis set
+start_of_parent_equal6h,145,27.6,18.6,15.2,,,,"S1/S2/S3 0-6/6-12/24-30; columns W1-W3 hold S1-S3"
+mid_parent_equal6h_complete,144,27.8,19.4,14.6,,,,"M1/M2/M3; 1 of 145 incomplete mid triad"
