@@ -1,6 +1,6 @@
 # Window-length bias in EHR-derived MAP hypotension metrics
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24014471.svg)](https://doi.org/10.5281/zenodo.24014471)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24056368.svg)](https://doi.org/10.5281/zenodo.24056368)
 
 Analysis code companion for a methods manuscript on **window-length bias** in
 time-window summaries of mean arterial pressure (MAP) hypotension
@@ -8,9 +8,9 @@ time-window summaries of mean arterial pressure (MAP) hypotension
 
 **Public repository:** https://github.com/1e0N-Sxx/window-length-bias-ehr-hypotension
 
-**Zenodo archive:** https://doi.org/10.5281/zenodo.24014471
+**Zenodo archive:** https://doi.org/10.5281/zenodo.24056368 (version **v0.2.0**, complete-case n=145). Concept DOI: https://doi.org/10.5281/zenodo.24014470
 
-That version DOI is still Zenodo **v0.1.0** (published 2026-11-06; primary **n=148** snapshot). It does not match the tables in this tree. A new Zenodo version is needed after the git tag. The concept DOI `10.5281/zenodo.24014470` stays and will track the latest version. Details: `docs/zenodo_v0.1.0_n145_gap.md`.
+Version DOI https://doi.org/10.5281/zenodo.24014471 remains the earlier **v0.1.0** snapshot (n=148). Details: `docs/zenodo_v0.1.0_n145_gap.md`.
 
 **Primary analysis set (v2.5 / n145):** complete-case **n=145** (W1–W3 and E1–E3 all computable).
 Unequal any-MAP<65 positivity **27.6 / 34.5 / 47.6%**; equal-end **27.6 / 17.2 / 17.2%**.
@@ -103,6 +103,6 @@ MIT — see `LICENSE`.
 
 ## Citation
 
-Please cite the published article (or preprint) when available, and MIMIC-IV as above. The badge is version DOI 10.5281/zenodo.24014471 (v0.1.0 only). Cite the new version DOI after that version is published.
+Please cite the published article (or preprint) when available, and MIMIC-IV as above. The badge is version DOI 10.5281/zenodo.24056368 (v0.2.0). Concept DOI 10.5281/zenodo.24014470 tracks the latest version.
 This code deposit is offered to support methods review and reproducibility of
 **aggregate** results; it is not a substitute for credentialed database access.
