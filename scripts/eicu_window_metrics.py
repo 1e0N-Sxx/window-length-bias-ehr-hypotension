@@ -16,7 +16,8 @@ Outputs (written under --out-dir):
   length_curve_0h_v1.csv / length_curve_24h_v1.csv
   perm_null_v1.csv (within-patient value permutation null)
 
-Manuscript numbers for the primary n=148 analysis are also shipped as
+Manuscript numbers for the primary complete-case analysis (n=145;
+unequal-window any-positivity 27.6 / 34.5 / 47.6) are also shipped as
 aggregate CSVs under data/summary/ (no patient rows).
 """
 from __future__ import annotations
